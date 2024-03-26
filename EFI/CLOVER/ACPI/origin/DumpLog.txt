@@ -1,0 +1,140 @@
+33:050  29:508  Found UEFI Acpi 2.0 RSDP at 8A98B000
+33:050  0:000  Saving ACPI tables from RSDP 8A98B000 to EFI\CLOVER\ACPI\origin ...
+33:050  0:000   8A98B000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+33:079  0:028    (Xsdt: 8A98B0B8, Rsdt: 8A98B028)
+33:079  0:000    8A98B0B8: 'XSDT', 'Notebook', Rev: 1, Len: 244 -> XSDT.aml
+33:106  0:026    8A98B028: 'RSDT', 'Notebook', Rev: 1, Len: 140 -> RSDT.aml
+33:132  0:026    Tables in Xsdt: 26
+33:132  0:000    0. 8A9B6DC0: 'FACP', 'Notebook', Rev: 6, Len: 276 -> FACP.aml
+33:160  0:027        (Dsdt: 8A98B240, Facs: 8ADEDF00, XDsdt: 8A98B240, XFacs: 0)
+33:160  0:000        8A98B240: 'DSDT', 'Notebook', Rev: 2, Len: 179067 -> DSDT.aml
+33:202  0:042        8ADEDF00: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+33:229  0:027    1. 8A9B6ED8: 'APIC', 'Notebook', Rev: 3, Len: 188 -> APIC.aml
+33:257  0:027    2. 8A9B6F98: 'FPDT', 'Notebook', Rev: 1, Len: 68 -> FPDT.aml
+33:285  0:027    3. 8A9B6FE0: 'FIDT', 'Notebook', Rev: 1, Len: 156 -> FIDT.aml
+33:315  0:030    4. 8A9B7080: 'ECDT', 'Notebook', Rev: 1, Len: 193 -> ECDT.aml
+33:343  0:027    5. 8A9B7148: 'MCFG', 'Notebook', Rev: 1, Len: 60 -> MCFG.aml
+33:371  0:027    6. 8A9B7188: 'SSDT', 'SataTabl', Rev: 1, Len: 857 -> SSDT-0-SataTabl.aml
+33:398  0:027    7. 8A9B74E8: 'SSDT', 'DptfTabl', Rev: 2, Len: 32327 -> SSDT-1-DptfTabl.aml
+33:428  0:029    8. 8A9BF330: 'MSDM', 'Notebook', Rev: 3, Len: 85 -> MSDM.aml
+33:456  0:027    9. 8A9BF388: 'SSDT', 'SaSsdt', Rev: 2, Len: 12615 -> SSDT-2-SaSsdt.aml
+33:484  0:027    10. 8A9C24D0: 'HPET', 'KBL-ULT', Rev: 1, Len: 56 -> HPET.aml
+33:511  0:027    11. 8A9C2508: 'UEFI', 'Notebook', Rev: 1, Len: 66 -> UEFI.aml
+33:539  0:027    12. 8A9C2550: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062 -> SSDT-3-CpuSsdt.aml (Found hidden SSDT 7 pcs)
+33:567  0:027        * 8A91F318: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1485  53 53 44 54 CD 05 00 00 02 C1 50 6D 52 65 66 00 Internal length = 1485 -> SSDT-x3_0-Cpu0Ist.aml
+33:594  0:027        * 8A0E2018: 'SSDT', 'ApIst', Rev: 2, Len: 3348  53 53 44 54 14 0D 00 00 02 30 50 6D 52 65 66 00 Internal length = 3348 -> SSDT-x3_1-ApIst.aml
+33:622  0:027        * 8A0E3698: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1023  53 53 44 54 FF 03 00 00 02 17 50 6D 52 65 66 00 Internal length = 1023 -> SSDT-x3_2-Cpu0Cst.aml
+33:650  0:027        * 8A0E1018: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 99 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x3_3-ApCst.aml
+33:677  0:027        * 8A91FD98: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 186  53 53 44 54 BA 00 00 00 02 83 50 6D 52 65 66 00 Internal length = 186 -> SSDT-x3_4-Cpu0Hwp.aml
+33:709  0:031        * 8A0E1418: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 86 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x3_5-ApHwp.aml
+33:737  0:028        * 8A0E3018: 'SSDT', 'HwpLvt', Rev: 2, Len: 1576  53 53 44 54 28 06 00 00 02 8B 50 6D 52 65 66 00 Internal length = 1576 -> SSDT-x3_6-HwpLvt.aml
+33:765  0:028  
+33:765  0:000    13. 8A9C3D00: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148 -> LPIT.aml
+33:793  0:028    14. 8A9C3D98: 'SSDT', 'HdaDsp', Rev: 2, Len: 321 -> SSDT-4-HdaDsp.aml
+33:822  0:028    15. 8A9C3EE0: 'SSDT', 'sensrhub', Rev: 2, Len: 671 -> SSDT-5-sensrhub.aml
+33:850  0:028    16. 8A9C4180: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303 -> SSDT-6-TbtTypeC.aml
+33:879  0:029    17. 8A9C4698: 'DBGP', '', Rev: 1, Len: 52 -> DBGP.aml
+33:907  0:028    18. 8A9C46D0: 'DBG2', '', Rev: 0, Len: 84 -> DBG2.aml
+33:936  0:028    19. 8A9C4728: 'SSDT', 'SgPch', Rev: 2, Len: 2089 -> SSDT-7-SgPch.aml
+33:964  0:028    20. 8A9C4F58: 'SSDT', 'SgUlx', Rev: 2, Len: 923 -> SSDT-8-SgUlx.aml
+33:992  0:028    21. 8A9C52F8: 'DMAR', 'KBL', Rev: 1, Len: 312 -> DMAR.aml
+34:020  0:028    22. 8A9C5430: 'BGRT', 'Notebook', Rev: 1, Len: 56 -> BGRT.aml
+34:048  0:028    23. 8A9C5468: 'TPM2', 'Notebook', Rev: 3, Len: 52 -> TPM2.aml
+34:068  0:019    24. 8A9C54A0: 'SSDT', 'OptTabl', Rev: 1, Len: 7987 -> SSDT-9-OptTabl.aml
+34:097  0:029    25. 8A9C73D8: 'WSMT', 'Notebook', Rev: 1, Len: 40 -> WSMT.aml
+34:126  0:028    Tables in Rsdt: 26
+34:126  0:000    0. 8A98B1B8: 'FACP', 'Notebook', Rev: 2, Len: 132 -> RSDT-FACP.aml
+34:154  0:028        (Dsdt: 8A98B240, Facs: 8ADEDEC0)
+34:154  0:000        8A98B240: 'DSDT', 'Notebook', Rev: 2, Len: 179067
+34:158  0:003        8ADEDEC0: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+34:187  0:028    1. 8A9B6ED8: 'APIC', 'Notebook', Rev: 3, Len: 188
+34:187  0:000    2. 8A9B6F98: 'FPDT', 'Notebook', Rev: 1, Len: 68
+34:187  0:000    3. 8A9B6FE0: 'FIDT', 'Notebook', Rev: 1, Len: 156
+34:187  0:000    4. 8A9B7080: 'ECDT', 'Notebook', Rev: 1, Len: 193
+34:187  0:000    5. 8A9B7148: 'MCFG', 'Notebook', Rev: 1, Len: 60
+34:187  0:000    6. 8A9B7188: 'SSDT', 'SataTabl', Rev: 1, Len: 857
+34:187  0:000    7. 8A9B74E8: 'SSDT', 'DptfTabl', Rev: 2, Len: 32327
+34:187  0:000    8. 8A9BF330: 'MSDM', 'Notebook', Rev: 3, Len: 85
+34:187  0:000    9. 8A9BF388: 'SSDT', 'SaSsdt', Rev: 2, Len: 12615
+34:187  0:000    10. 8A9C24D0: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+34:187  0:000    11. 8A9C2508: 'UEFI', 'Notebook', Rev: 1, Len: 66
+34:187  0:000    12. 8A9C2550: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+34:187  0:000    13. 8A9C3D00: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+34:187  0:000    14. 8A9C3D98: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+34:187  0:000    15. 8A9C3EE0: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+34:187  0:000    16. 8A9C4180: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+34:187  0:000    17. 8A9C4698: 'DBGP', '', Rev: 1, Len: 52
+34:187  0:000    18. 8A9C46D0: 'DBG2', '', Rev: 0, Len: 84
+34:187  0:000    19. 8A9C4728: 'SSDT', 'SgPch', Rev: 2, Len: 2089
+34:187  0:000    20. 8A9C4F58: 'SSDT', 'SgUlx', Rev: 2, Len: 923
+34:187  0:000    21. 8A9C52F8: 'DMAR', 'KBL', Rev: 1, Len: 312
+34:187  0:000    22. 8A9C5430: 'BGRT', 'Notebook', Rev: 1, Len: 56
+34:187  0:000    23. 8A9C5468: 'TPM2', 'Notebook', Rev: 3, Len: 52
+34:187  0:000    24. 8A9C54A0: 'SSDT', 'OptTabl', Rev: 1, Len: 7987
+34:187  0:000    25. 8A9C73D8: 'WSMT', 'Notebook', Rev: 1, Len: 40
+34:187  0:000  Found UEFI Acpi 1.0 RSDP at 8A98B000
+34:187  0:000  Printing ACPI tables from RSDP 8A98B000 ...
+34:187  0:000   8A98B000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+34:187  0:000    (Xsdt: 8A98B0B8, Rsdt: 8A98B028)
+34:187  0:000    8A98B0B8: 'XSDT', 'Notebook', Rev: 1, Len: 244
+34:187  0:000    8A98B028: 'RSDT', 'Notebook', Rev: 1, Len: 140
+34:187  0:000    Tables in Xsdt: 26
+34:187  0:000    0. 8A9B6DC0: 'FACP', 'Notebook', Rev: 6, Len: 276
+34:187  0:000        (Dsdt: 8A98B240, Facs: 8ADEDF00, XDsdt: 8A98B240, XFacs: 0)
+34:187  0:000        8A98B240: 'DSDT', 'Notebook', Rev: 2, Len: 179067
+34:191  0:003        8ADEDF00: 'FACS', Ver: 2, Len: 64
+34:191  0:000    1. 8A9B6ED8: 'APIC', 'Notebook', Rev: 3, Len: 188
+34:191  0:000    2. 8A9B6F98: 'FPDT', 'Notebook', Rev: 1, Len: 68
+34:191  0:000    3. 8A9B6FE0: 'FIDT', 'Notebook', Rev: 1, Len: 156
+34:191  0:000    4. 8A9B7080: 'ECDT', 'Notebook', Rev: 1, Len: 193
+34:191  0:000    5. 8A9B7148: 'MCFG', 'Notebook', Rev: 1, Len: 60
+34:191  0:000    6. 8A9B7188: 'SSDT', 'SataTabl', Rev: 1, Len: 857
+34:191  0:000    7. 8A9B74E8: 'SSDT', 'DptfTabl', Rev: 2, Len: 32327
+34:191  0:000    8. 8A9BF330: 'MSDM', 'Notebook', Rev: 3, Len: 85
+34:191  0:000    9. 8A9BF388: 'SSDT', 'SaSsdt', Rev: 2, Len: 12615
+34:191  0:000    10. 8A9C24D0: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+34:191  0:000    11. 8A9C2508: 'UEFI', 'Notebook', Rev: 1, Len: 66
+34:191  0:000    12. 8A9C2550: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+34:191  0:000    13. 8A9C3D00: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+34:191  0:000    14. 8A9C3D98: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+34:191  0:000    15. 8A9C3EE0: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+34:191  0:000    16. 8A9C4180: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+34:191  0:000    17. 8A9C4698: 'DBGP', '', Rev: 1, Len: 52
+34:191  0:000    18. 8A9C46D0: 'DBG2', '', Rev: 0, Len: 84
+34:191  0:000    19. 8A9C4728: 'SSDT', 'SgPch', Rev: 2, Len: 2089
+34:191  0:000    20. 8A9C4F58: 'SSDT', 'SgUlx', Rev: 2, Len: 923
+34:191  0:000    21. 8A9C52F8: 'DMAR', 'KBL', Rev: 1, Len: 312
+34:191  0:000    22. 8A9C5430: 'BGRT', 'Notebook', Rev: 1, Len: 56
+34:191  0:000    23. 8A9C5468: 'TPM2', 'Notebook', Rev: 3, Len: 52
+34:191  0:000    24. 8A9C54A0: 'SSDT', 'OptTabl', Rev: 1, Len: 7987
+34:191  0:000    25. 8A9C73D8: 'WSMT', 'Notebook', Rev: 1, Len: 40
+34:191  0:000    Tables in Rsdt: 26
+34:191  0:000    0. 8A98B1B8: 'FACP', 'Notebook', Rev: 2, Len: 132
+34:191  0:000        (Dsdt: 8A98B240, Facs: 8ADEDEC0)
+34:191  0:000        8A98B240: 'DSDT', 'Notebook', Rev: 2, Len: 179067
+34:195  0:003        8ADEDEC0: 'FACS', Ver: 0, Len: 64
+34:195  0:000    1. 8A9B6ED8: 'APIC', 'Notebook', Rev: 3, Len: 188
+34:195  0:000    2. 8A9B6F98: 'FPDT', 'Notebook', Rev: 1, Len: 68
+34:195  0:000    3. 8A9B6FE0: 'FIDT', 'Notebook', Rev: 1, Len: 156
+34:195  0:000    4. 8A9B7080: 'ECDT', 'Notebook', Rev: 1, Len: 193
+34:195  0:000    5. 8A9B7148: 'MCFG', 'Notebook', Rev: 1, Len: 60
+34:195  0:000    6. 8A9B7188: 'SSDT', 'SataTabl', Rev: 1, Len: 857
+34:195  0:000    7. 8A9B74E8: 'SSDT', 'DptfTabl', Rev: 2, Len: 32327
+34:195  0:000    8. 8A9BF330: 'MSDM', 'Notebook', Rev: 3, Len: 85
+34:195  0:000    9. 8A9BF388: 'SSDT', 'SaSsdt', Rev: 2, Len: 12615
+34:195  0:000    10. 8A9C24D0: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+34:195  0:000    11. 8A9C2508: 'UEFI', 'Notebook', Rev: 1, Len: 66
+34:195  0:000    12. 8A9C2550: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+34:195  0:000    13. 8A9C3D00: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+34:195  0:000    14. 8A9C3D98: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+34:195  0:000    15. 8A9C3EE0: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+34:195  0:000    16. 8A9C4180: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+34:195  0:000    17. 8A9C4698: 'DBGP', '', Rev: 1, Len: 52
+34:195  0:000    18. 8A9C46D0: 'DBG2', '', Rev: 0, Len: 84
+34:195  0:000    19. 8A9C4728: 'SSDT', 'SgPch', Rev: 2, Len: 2089
+34:195  0:000    20. 8A9C4F58: 'SSDT', 'SgUlx', Rev: 2, Len: 923
+34:195  0:000    21. 8A9C52F8: 'DMAR', 'KBL', Rev: 1, Len: 312
+34:195  0:000    22. 8A9C5430: 'BGRT', 'Notebook', Rev: 1, Len: 56
+34:195  0:000    23. 8A9C5468: 'TPM2', 'Notebook', Rev: 3, Len: 52
+34:195  0:000    24. 8A9C54A0: 'SSDT', 'OptTabl', Rev: 1, Len: 7987
+34:195  0:000    25. 8A9C73D8: 'WSMT', 'Notebook', Rev: 1, Len: 40
